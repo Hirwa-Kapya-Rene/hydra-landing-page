@@ -28,7 +28,6 @@ img{
     .nav{
         display: flex;
         justify-content: space-between;
-        margin: 20px 0;
         padding: 10px;
         z-index: 1000;
         background-color: #302C42;
