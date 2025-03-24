@@ -84,7 +84,7 @@ img{
     .footer-location{
         border: 2px solid #ffffff;
         padding: 20px;
-        border-radius: 20px;
+        border-radius: 50px;
         margin: 20px;
         display: flex;
         align-items: center;
@@ -98,6 +98,8 @@ img{
     }
     .footer-email{
         display: none;
-    }
+    /* }
+    .fa-solid .fa-circle-chevron-right{
+    } */
 }
 
