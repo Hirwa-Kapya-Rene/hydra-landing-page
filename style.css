@@ -43,11 +43,11 @@ img{
     }
     .main-content h3{
         font-size: 2.5rem;
-        margin-bottom: 60px;
+        margin-bottom: 30px;
         text-align: center;
     }
     .gradient-text {
-        background: linear-gradient(to right, #8b79c1, #b6a3e0); /* Purple gradient */
+        background: linear-gradient(to right, #a092ca, #cebdf1); /* Purple gradient */
         -webkit-background-clip: text; /* Clips background to text */
         -webkit-text-fill-color: transparent; /* Makes the text transparent to show the background */
         font-size: 48px;
@@ -64,7 +64,7 @@ img{
         background: linear-gradient(to right, #8b79c1, #b6a3e0); /* Adjusted purple gradient */
         color: #2d243b; /* Dark text color */
         font-weight: bold;
-        padding: 15px 40px;
+        padding: 20px 80px;
         margin: 0 auto;
         border-radius: 30px; /* Rounded corners */
         border: none;
@@ -74,6 +74,29 @@ img{
         cursor: pointer;
     }
     .footer{
+        position: absolute;
+        top: 100%;
+        display: inline-block;
+    }
+    .footer-location_address h4{
+        display: none;
+    }
+    .footer-location{
+        border: 2px solid #ffffff;
+        padding: 20px;
+        border-radius: 20px;
+        margin: 20px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    .footer-location img{
+        max-width: 2rem;
+    }
+    .footer-contact{
+        display: none;
+    }
+    .footer-email{
         display: none;
     }
 }
