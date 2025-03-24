@@ -16,6 +16,31 @@ img{
       background-color: #302C42;
       color: #ffffff;
     }
-    
+
+    .nav-menu{
+        display: none;
+    }
+
+    .nav-btn{
+        display: none;
+    }
+
+    .nav{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .flex{
+        display: flex;
+    }
+    .main-content p{
+        display: none;
+    }
+    .main-btn i{
+        display: none;
+    }
+    .footer{
+        display: none;
+    }
 }
 
