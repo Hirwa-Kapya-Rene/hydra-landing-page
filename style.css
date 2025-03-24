@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 img{
-  max-width: 5rem;
+  max-width: 3.5rem;
 }
 
 @media (min-width: 320px) { /* Targeting tablets and smaller screens */
@@ -14,7 +14,7 @@ img{
       background-size: 30rem;
       background-position: center; /* Centers the image */
       background-repeat: no-repeat; /* Prevents repetition */
-      background-position: 60% -10%; /* Moves image 10% from left, -10% from top */
+      background-position: 60% 10%; /* Moves image 10% from left, -10% from top */
       background-color: #302C42;
       color: #ffffff;
     }
@@ -35,6 +35,10 @@ img{
 
     .flex{
         display: flex;
+    }
+    .main{
+        position: absolute;
+        top: 70%;
     }
     .main-content p{
         display: none;
