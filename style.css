@@ -82,7 +82,8 @@ img{
         display: none;
     }
     .footer-location{
-        border: 2px solid #ffffff;
+        background: linear-gradient(to right, #3A3456F2, #211E2E); 
+        border: 2px solid #3A3456F2;
         padding: 20px;
         border-radius: 50px;
         margin: 20px;
@@ -98,8 +99,9 @@ img{
     }
     .footer-email{
         display: none;
-    /* }
-    .fa-solid .fa-circle-chevron-right{
-    } */
+    }
+    .icon{
+        color: white;
+    }
 }
 
