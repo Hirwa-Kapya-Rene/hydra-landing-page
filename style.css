@@ -31,6 +31,7 @@ img{
         display: flex;
         justify-content: space-between;
         margin: 20px 0;
+        padding: 10px;
     }
 
     .flex{
@@ -40,11 +41,29 @@ img{
         position: absolute;
         top: 70%;
     }
+    .main-content h3{
+        font-size: 2.5rem;
+        margin-bottom: 60px;
+        text-align: center;
+    }
     .main-content p{
         display: none;
     }
     .main-btn i{
         display: none;
+    }
+    #btn{
+        background: linear-gradient(to right, #8b79c1, #b6a3e0); /* Adjusted purple gradient */
+        color: #2d243b; /* Dark text color */
+        font-weight: bold;
+        padding: 15px 40px;
+        margin: 0 auto;
+        border-radius: 30px; /* Rounded corners */
+        border: none;
+        text-align: center;
+        display: block;
+        text-transform: uppercase;
+        cursor: pointer;
     }
     .footer{
         display: none;
