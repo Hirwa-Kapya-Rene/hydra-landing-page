@@ -21,6 +21,7 @@ img{
       font-optical-sizing: auto;
       font-weight: 400;
       font-style: normal;
+      scrollbar-width: none;  /* Firefox */
     }
 
     .nav-menu{
@@ -29,6 +30,12 @@ img{
 
     .nav-btn{
         display: none;
+    }
+    .nav img{
+        max-width: 7rem;
+    }
+    #hamburger{
+        max-width: 2rem;
     }
 
     .nav{
@@ -43,7 +50,7 @@ img{
     }
     .main{
         position: absolute;
-        top: 70%;
+        top: 63%;
     }
     .main-content h3{
         font-size: 2.2rem;
