@@ -46,6 +46,14 @@ img{
         margin-bottom: 60px;
         text-align: center;
     }
+    .gradient-text {
+        background: linear-gradient(to right, #8b79c1, #b6a3e0); /* Purple gradient */
+        -webkit-background-clip: text; /* Clips background to text */
+        -webkit-text-fill-color: transparent; /* Makes the text transparent to show the background */
+        font-size: 48px;
+        font-weight: bold;
+      }
+      
     .main-content p{
         display: none;
     }
