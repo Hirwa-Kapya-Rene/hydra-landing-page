@@ -7,7 +7,34 @@ img{
   max-width: 3.5rem;
 }
 
-@media (min-width: 320px) { /* Targeting tablets and smaller screens */
+.icon{
+    display: none;
+}
+#hamburger{
+    display: none;
+}
+body {
+    background-image: url('assets/photo.svg'); /* Replace with your image path */
+    background-size: cover; /* Ensures the image covers the entire element */
+    background-size: 30rem;
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents repetition */
+    background-position: 60% 10%; /* Moves image 10% from left, -10% from top */
+    z-index: -1; /* Places the image behind other elements */
+    background-color: #302C42;
+    color: #ffffff;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    scrollbar-width: none;  /* Firefox */
+  }
+
+
+
+/* mobile version */
+
+@media (max-width: 480px) { /* Targeting tablets and smaller screens */
     body {
       background-image: url('assets/photo.svg'); /* Replace with your image path */
       background-size: cover; /* Ensures the image covers the entire element */
