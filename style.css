@@ -49,9 +49,6 @@ img{
     #hamburger{
         max-width: 2rem;
     }
-
-    
-
     .flex{
         display: flex;
     }
@@ -147,7 +144,6 @@ img{
         scrollbar-width: none;  /* Firefox */
         position: relative;
       }
-
       .nav{
         display: flex;
         justify-content: space-between;
@@ -156,11 +152,9 @@ img{
         position: fixed;
         width: 100%;
     }
-
     .nav-menu{
         display: flex;
     }
-
     .nav-btn{
     }
     .nav img{
@@ -169,7 +163,6 @@ img{
     #hamburger{
         display: none;
     }
-
     .flex{
         display: flex;
     }
@@ -189,7 +182,6 @@ img{
         font-size: 48px;
         font-weight: bold;
       }
-      
     .main-content p{
     }
     .main-btn i{
