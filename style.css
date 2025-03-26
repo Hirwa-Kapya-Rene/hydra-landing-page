@@ -193,6 +193,8 @@ img{
       }
       
     .main-content p{
+        color: white;
+        display: contents;
     }
     .main-btn i{
     }
