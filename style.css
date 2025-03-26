@@ -133,90 +133,12 @@ img{
 
 
 /* --- Desktop mode --- */
-@media screen and (min-width: 480px){
-    body {
-        background-image: url('assets/photo.svg'); /* Replace with your image path */
-        background-size: cover; /* Ensures the image covers the entire element */
-        background-size: 50rem;
-        background-position: center; /* Centers the image */
-        background-repeat: no-repeat; /* Prevents repetition */
-        background-position: 60% 10%; /* Moves image 10% from left, -10% from top */
-        z-index: -1; /* Places the image behind other elements */
+@media screen and (min-width: 485px){
+    body{
         background-color: #302C42;
         color: #ffffff;
-        font-family: "Inter", sans-serif;
-        font-optical-sizing: auto;
-        font-weight: 400;
-        font-style: normal;
-        scrollbar-width: none;  /* Firefox */
-      }
-
-      .nav{
-        display: flex;
-        justify-content: space-between;
-        padding: 10px;
-        z-index: 1000;
-        background-color: #302C42;
-        position: fixed;
-        width: 100%;
     }
-
-    .nav-menu{
-    }
-
-    .nav-btn{
-    }
-    .nav img{
-        max-width: 7rem;
-    }
-    #hamburger{
-        display: none;
-    }
-
-    .flex{
-        display: flex;
-    }
-    .main{
-        display: block;
-    }
-    .main-content {
-        display: flex;
-    }
-    .main-content h3{
-    }
-    .gradient-text {
-        background: linear-gradient(to right, #a092ca, #cebdf1); /* Purple gradient */
-        -webkit-background-clip: text; /* Clips background to text */
-        -webkit-text-fill-color: transparent; /* Makes the text transparent to show the background */
-        font-size: 48px;
-        font-weight: bold;
-      }
-      
-    .main-content p{
-        color: white;
-        display: contents;
-    }
-    .main-btn i{
-    }
-    #btn{
-    }
-    .footer{
-    }
-    .footer-location_address h4{
-    }
-    .footer-location{
-    }
-    .footer-location img{
-        max-width: 2rem;
-    }
-    .footer-contact{
-    }
-    .footer-email{
-    }
-    .icon{
-        display: none;
-    }
-    
+ 
 }
 
 
