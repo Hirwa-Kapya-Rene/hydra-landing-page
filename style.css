@@ -138,7 +138,22 @@ img{
         background-color: #302C42;
         color: #ffffff;
     }
- 
+
+    .nav{
+        display: flex;
+        justify-content: space-between;
+    }
+    #hamburger{
+        display: none;
+    }
+    .icon{
+        display: none;
+    }
+    a{
+        color: white;
+        text-decoration: none;
+    }
 }
+
 
 
