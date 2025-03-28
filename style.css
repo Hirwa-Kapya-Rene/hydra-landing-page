@@ -153,6 +153,10 @@ img{
         color: white;
         text-decoration: none;
     }
+    .flex{
+        display: flex;
+        
+    }
 }
 
 
