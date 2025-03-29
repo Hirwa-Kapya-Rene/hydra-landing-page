@@ -162,10 +162,6 @@ img{
         display: flex;
         gap: 20px;
     }
-    .nav-btn{
-        display: flex;
-        gap: 20px;
-    }
 }
 
 
