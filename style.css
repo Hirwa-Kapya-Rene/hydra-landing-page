@@ -153,6 +153,7 @@ img{
         color: white;
         text-decoration: none;
     }
+    
     .flex{
         display: flex;
         justify-content: space-between;
@@ -161,7 +162,7 @@ img{
         display: flex;
         gap: 20px;
     }
-    
+
 }
 
 
