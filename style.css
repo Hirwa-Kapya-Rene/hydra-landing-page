@@ -164,6 +164,7 @@ img{
     }
     .footer-email_address{
         padding-left: 20px;
+        border: red;
     }
 }
 
