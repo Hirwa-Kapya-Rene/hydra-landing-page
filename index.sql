@@ -1,13 +1,18 @@
 CREATE TABLE Users (
     user_id INT PRIMARY KEY AUTO_INCREMENT,
     username VARCHAR(20) UNIQUE NOT NULL,
+    first_name VARCHAR(20) NOT NULL,
+    surname VARCHAR(20) NOT NULL,
+    date_of_birth DATE NULL,
     email VARCHAR(30) UNIQUE NOT NULL,
     password_hash VARCHAR(100) NOT NULL,
     bio VARCHAR(160) NULL,
     profile_picture_url VARCHAR(255) NULL,
     website VARCHAR(255) NULL,
-    location VARCHAR(100) NULL,
-    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+    is_active BOOLEAN DEFAULT TRUE,
+    FOREIGN KEY (location_id) REFERENCES Locations(location_id) ON DELETE SET NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
 );
 
 CREATE TABLE Tweets (
